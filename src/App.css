@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  box-sizing: border-box;
+}
+
+.event {
+  background: linear-gradient(#12100e, #331c00);
+}
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.box h1 {
+  width: 95%;
+  font-size: 22px;
+  text-align: center;
+  margin: 16px;
+  padding: 16px;
+}
+
+.box {
+  background-color: #ba6d39;
+}
+.box .crts {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center;
+  margin-left: 150px;
+}
+.box .crts .crt {
+  display: flex;
+  height: 56px;
+  width: 352px;
+  margin-bottom: 50px;
+}
+.box .crts .crt-img {
+  width: 56px;
+}
+.box .crts .crt-img .img {
+  background-color: #f7f8ff;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  text-align: center;
+}
+.box .crts .crt-img .img svg {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+.box .crts .crt-disc {
+  padding-left: 18px;
+  width: calc(100% - 56px);
+}
+.box .crts .crt-disc h2 {
+  height: 24px;
+  font-size: 18px;
+}
+.box .crts .crt-disc p {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+  .box .crts .crt {
+    margin-bottom: 15px;
+  }
+}
